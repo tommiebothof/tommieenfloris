@@ -1,3 +1,9 @@
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("time").innerHTML = d.toLocaleTimeString();
+}
 alert("druk op ok om naar rare dieren te kijken");
 state = 0
 function klik() {
