@@ -1,0 +1,104 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input{
+  color: red;
+}
+ul{
+  padding: 0px;
+  border: solid 2px red;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: fixed;
+  top: 100px;
+}
+ul li{
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+  padding:10px;
+}
+p{
+  text-align: center;
+  color: red;
+}
+h2{
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  color: black;
+  background-color: red;
+}
+a{
+  color: red;
+  text-align: center;
+}
+h1{
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  color: black;
+  background-color: red;
+}
+h3{
+  border-radius: 20px 20px 20px 20px;
+text-align: center;
+color: black;
+background-color: red
+}
+body{
+  background-color: black;
+  }
+#aapje{
+  visibility: hidden;
+}
+#bedankt1{
+  visibility: hidden;
+}
+#bedankt2{
+  visibility: hidden;
+}
+#bedankt3{
+  visibility: hidden;
+}
+#bedankt4{
+  visibility: hidden;
+}
+#jelmer{
+  visibility: hidden;
+  position: absolute;
+  top: 400px;
+  left: 650px
+}
+#jelmer:hover{
+  border: solid blue 5px;
+}
+#links{
+  position: absolute;
+  top: 500px;
+}
+#rechts{
+  position: absolute;
+  top: 500px;
+  right: 10px;
+}
+#up{
+  position: absolute;
+  top: 300px;
+  left: 750px;
+}
+#down{
+  position: absolute;
+  top: 700px;
+  left: 750px;
+}
